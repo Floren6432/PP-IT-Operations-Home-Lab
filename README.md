@@ -84,15 +84,15 @@ The lab was tested using the Windows 11 client workstation joined to the `corp.t
 
 | Test | Expected Result | Status |
 |---|---|---|
-| Domain Controller DNS Resolution | DC01 resolves to 192.168.122.10 | Passed |
-| Domain Name Resolution | corp.test resolves successfully | Passed |
-| Domain Join | CLIENT01 successfully joins corp.test | Passed |
-| Domain User Authentication | Departmental accounts can sign in | Passed |
-| IT Drive Mapping | IT user receives I: drive | Passed |
-| HR Drive Mapping | HR user receives H: drive | Passed |
-| Finance Drive Mapping | Finance user receives F: drive | Passed |
-| Departmental File Access | Users can access their assigned folders | Passed |
-| Unauthorized File Access | Users are denied access to other departments' folders | Passed |
+| Domain Controller DNS Resolution | DC01 resolves to 192.168.122.10 | Passed :white_check_mark: |
+| Domain Name Resolution | corp.test resolves successfully | Passed :white_check_mark: |
+| Domain Join | CLIENT01 successfully joins corp.test | Passed :white_check_mark: |
+| Domain User Authentication | Departmental accounts can sign in | Passed :white_check_mark: |
+| IT Drive Mapping | IT user receives I: drive | Passed :white_check_mark: |
+| HR Drive Mapping | HR user receives H: drive | Passed :white_check_mark: |
+| Finance Drive Mapping | Finance user receives F: drive | Passed :white_check_mark: |
+| Departmental File Access | Users can access their assigned folders | Passed :white_check_mark: |
+| Unauthorized File Access | Users are denied access to other departments' folders | Passed :white_check_mark: |
 
 All listed tests were successfully performed in the lab environment.
 
